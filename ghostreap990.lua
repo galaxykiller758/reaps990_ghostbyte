@@ -35,7 +35,7 @@ local function unlockHub()
 end
 
 local function checkKey(input)
-    if input.KeyCode == Enum.KeyCode.BackSlash then
+    if input.KeyCode == Enum.KeyCode.RightShift then
         local inputKey = game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("KeyBox") or Instance.new("TextBox")
         inputKey.Name = "KeyBox"
         inputKey.Parent = player.PlayerGui
